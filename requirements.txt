@@ -1,0 +1,8 @@
+streamlit
+librosa
+soundfile
+pyloudnorm
+numpy
+google-generativeai
+plotly
+fpdf2
