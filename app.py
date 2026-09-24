@@ -1026,10 +1026,9 @@ No utilices títulos con símbolos raros.
 
 with st.sidebar:
 
-    st.image(
-        "https://cdn-icons-png.flaticon.com/512/3254/3254122.png",
-        width=60
-    )
+
+    st.image("logo.png", use_column_width=True)
+    
 
     st.title(
         "Ajustes de Master"
