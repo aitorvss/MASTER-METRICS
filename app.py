@@ -1026,10 +1026,8 @@ No utilices títulos con símbolos raros.
 
 with st.sidebar:
 
-
-    st.image("logo.png", use_column_width=True)
+    st.image("logo.png", use_container_width=True)
     
-
     st.title(
         "Ajustes de Master"
     )
@@ -1037,7 +1035,6 @@ with st.sidebar:
     st.markdown(
         "Configura tu objetivo acústico."
     )
-
     objetivo_master = st.selectbox(
         "Plataforma de destino:",
         options=[
